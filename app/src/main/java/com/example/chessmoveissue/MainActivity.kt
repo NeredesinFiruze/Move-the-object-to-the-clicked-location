@@ -52,6 +52,7 @@ class MainActivity : ComponentActivity() {
                             .offset(
                                 x = offsetAnimatable.x.dp - pictureSize / 2,
                                 y = offsetAnimatable.y.dp - pictureSize / 2
+                            //The expression '- pictureSize / 2' adjusts the object's offset from the top left corner to the center.
                             )
                             .size(pictureSize)
                             .clip(CircleShape)
